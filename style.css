@@ -1,0 +1,48 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(https://media.istockphoto.com/id/1475966680/photo/female-hand-wearing-smart-watch-with-blank-screen-on-pink-background.jpg?s=612x612&w=0&k=20&c=5NjKE-nabm7c8_pr09cKS2eiCWk8o4KoKDRhPZYR13U=) no-repeat;
+    background-size: cover; 
+}
+.clock{
+    width: 100%; 
+    max-width: 380px;
+     display :flex; 
+     justify-content: center; 
+     align-items: center; 
+     box-shadow: 0px 0px 10px rgba(224, 3, 3, 0.1),0px 10px 20px rgba(43, 10, 229, 0.7);
+     height: 24vh;
+     border-radius: 10px;
+
+}
+.clock h1{
+  font-size: 60px;
+  font-weight: 600;
+  color:red;
+}
+.clock span{
+    position: relative;
+    top: -10%;
+    margin-left: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: green;
+
+
+}
+@media screen and (max-width:400px) {
+    .clock h1{
+         font-size:2.6rem;
+    }
+    
+}
+
